@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 24 14:30:17 2018
-
-@author: 18004
-"""
-
 import os
 import subprocess
 # use ffmpeg to convert images into video
