@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-@author: 18004
-"""
+
 
 # get twitter API form tweepy
 import tweepy 
