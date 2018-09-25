@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Sep 24 15:00:30 2018
 
-@author: 18004
-"""
 
 import io
 import os
