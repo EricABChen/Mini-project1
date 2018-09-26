@@ -1,5 +1,5 @@
-This is my mini-API project, unfortunately I haven't finish it till now so it might not behave well, but I have already tried my best basing on my knowledge about API.
+This is my mini-API project, which can downloads images from twitter using Twitter API, convert them to a video and describe the content of the images in the video.
 
-Basically I used the API tool, all the codes I wrote are basically about the usage of different API, I am still working on this but I really need more time.
+To run this program, you should first download and install tweepy into your system, then register for your own twitter developer's account to get access to the token.
 
-Sorry about that!
+
