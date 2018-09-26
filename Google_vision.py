@@ -34,4 +34,27 @@ with io.open(file_name, 'rb') as image_file:
         print(item.description)
     
     print(label_list)
+    
+    
+#Rename all images with name end with '.jpg'
+class image_rename():
+    def __init__(self):
+        self.path = r'/Users/18004/desktop/ec601/project1'
+    
+    def rename(self):
+        file_list = os.listdir(self.path)
+    
+        counter = 0
+        for item in file_list:
+            if item.endswith('.jpg'):
+                src = os.path.join(item.path,item)
+                dst = os.path.join(str(counter) + '.jpg')
+                os.rename(src, dst)
+                counter+=1
+
+# Run
+if __name__ == '__main__':
+    for i in [0,]:
+        newname = image_rename.rename()
+
 
